@@ -7,18 +7,18 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(141, 141, 141), rgb(92, 156, 53));
 }
 
 button {
-  font-size: 7px;
+  font-size: 8px;
 }
 
 #main-content {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   flex-direction: column;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.3);
@@ -29,9 +29,13 @@ button {
 
 #list {
   margin: 10px;
-  border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid #161616;
+  background: rgba(132, 211, 72, 0.75);
   padding: 15px 20px 18px 18px;
-  border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  border-radius: 15px;
+  box-shadow: 2px 5px 10px #333;
+}
+
+.task-item {
+  margin-bottom: 8px;
 }
